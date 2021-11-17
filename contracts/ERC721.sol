@@ -11,7 +11,7 @@ contract ERC721 {
     mapping(address => mapping(uint256 => uint256)) private ownerToekns;
 
     // events
-
+uint256 l =0;
     event Approval(
         address indexed _owner,
         address indexed _approved,
