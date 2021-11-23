@@ -9,7 +9,7 @@ contract ERC721 {
     mapping(uint256 => bool) private tokenExits; // this will keep tarck if token is exits or not  on block chian
     mapping(address => mapping(address => uint256)) private allowed; // this will keep track the number of owner  of the token
     mapping(address => mapping(uint256 => uint256)) private ownerToekns;
-
+uint256 l =1;
     // events
 uint256 l =0;
     event Approval(
